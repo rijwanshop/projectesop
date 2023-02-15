@@ -1,0 +1,14 @@
+body,.site-menu-item{font-size:12px}
+.table a, a.dropdown-item{text-decoration:none}
+.site-navbar-small .site-navbar .navbar-brand{padding: 10px 10px 0px 20px;}
+.form-horizontal .form-control-label, .form-control{font-size:12px}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba( 255, 255, 255, .8 ) url('../images/loading.gif') 50% 50% no-repeat;
+}

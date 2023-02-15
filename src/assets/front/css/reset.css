@@ -1,0 +1,50 @@
+body{font-size:12px}
+.navbar-menu{padding: 10px 0;}
+.navbar-fixed-top{padding: 10px 0 !important;}
+.navbar-brand{padding:5px}
+#main-slide .item{min-height: 500px;}
+.navbar-menu .navbar-nav > li > .dropdown-menu{margin-top:10px}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{background-color:#00AEF0;}
+
+.navbar-menu .navbar-nav > a {font-weight:bold}
+.footer-bottom{font-size: 12px;
+padding: 5px 0;}
+.footer-bottom .copyright{margin: 10px 0 10px 0;}
+.footer-top-box{margin:0 auto}
+
+/*Pagination*/
+#pagination span, #pagination a {
+	display: inline-block;
+	text-align: center;
+	height: 34px;
+	width: 34px;
+	color: #666;
+	line-height: 33px;
+	border: 1px solid #eee;
+	border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+	transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+#pagination span.current {
+	color: #fff;
+}
+
+#pagination a:hover {
+	border-color: #ddd;
+}
+
+#pagination .all-pages, #pagination .next-page {
+	width: auto;
+	padding: 0 14px;
+}
+
+#pagination span.current {
+    border-color: #00aef0;
+    background-color: #00aef0;
+}
